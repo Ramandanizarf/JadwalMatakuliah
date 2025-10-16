@@ -35,3 +35,44 @@ Project ini dijalankan menggunakan **Laragon** sebagai local development environ
 
 2. Pindahkan folder project ke direktori Laragon
    C:\laragon\www\
+
+3. Buka Laragon, lalu pastikan Apache dan MySQL sedang berjalan.
+
+4. Masuk ke folder project melalui terminal (Laragon Terminal / CMD)
+   cd C:\laragon\www\Penjadwalan
+
+5. Install dependency Laravel
+   composer install
+
+6. Install dependency frontend
+   npm install
+
+7. Konfigurasi file .env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=penjadwalan
+   DB_USERNAME=root
+   DB_PASSWORD=
+
+8. Generate key aplikasi
+   php artisan key:generate
+
+9. Migrasi database
+   php artisan migrate
+
+10. (Opsional) Isi data awal jika sudah ada seeder:
+    php artisan db:seed
+
+11. Jalankan server Laravel
+    php artisan serve
+
+12. Jalankan build asset frontend
+    npm run dev
+
+13. Akses aplikasi melalui browser:
+    http://localhost:8000
+
+
+
+
