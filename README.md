@@ -1,6 +1,6 @@
 ![Laravel Logo](https://laravel.com/img/logotype.min.svg)
 
-# 📚 JadwalMatakuliah
+# 📚 Penjadwalan Mata Kuliah
 
 Aplikasi web berbasis **Laravel** untuk mengelola dan menampilkan **jadwal mata kuliah**.  
 Didesain agar **dosen dan mahasiswa** dapat melihat serta mengatur jadwal per semester dengan mudah.  
