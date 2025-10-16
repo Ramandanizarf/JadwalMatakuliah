@@ -1,4 +1,4 @@
-<img width="1919" height="961" alt="Screenshot 2025-10-16 135148" src="https://github.com/user-attachments/assets/bad1f1b0-ce7d-40f7-99dc-a29eadcd8330" /># 📚 JadwalMatakuliah
+📚 JadwalMatakuliah
 
 Aplikasi web berbasis **Laravel** untuk mengelola dan menampilkan **jadwal mata kuliah**.  
 Didesain agar dosen dan mahasiswa dapat melihat serta mengatur jadwal per semester dengan mudah.  
