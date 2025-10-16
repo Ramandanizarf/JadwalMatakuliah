@@ -1,52 +1,37 @@
 # 📚 JadwalMatakuliah
 
-Aplikasi web untuk mengelola dan menampilkan **jadwal mata kuliah**.  
-Membantu mahasiswa dan dosen melihat jadwal kuliah per semester secara terstruktur.
+Aplikasi web berbasis Laravel untuk mengelola dan menampilkan **jadwal mata kuliah**.  
+Didesain agar dosen dan mahasiswa dapat melihat serta mengatur jadwal per semester dengan mudah.  
+Project ini dijalankan menggunakan **Laragon** sebagai local development environment.
 
 ---
 
 ## 🧰 Teknologi yang Digunakan
 
-- PHP (Laravel)  
-- Blade (templating)  
-- Bootstrap (CSS / UI)  
-- MySQL / database relasional  
-- Vite (untuk asset bundling)  
-- Struktur folder Laravel standar (app, config, routes, public, resources, dsb.)
+- **PHP 8+**  
+- **Laravel Framework**  
+- **MySQL** (via Laragon)  
+- **Bootstrap 5** untuk tampilan antarmuka  
+- **Vite** untuk manajemen asset (CSS & JS)
 
 ---
 
 ## ✨ Fitur Utama
 
 - CRUD (Create, Read, Update, Delete) jadwal mata kuliah  
-- Penataan jadwal per semester / per ruang / per dosen  
-- Tampilan antarmuka pengguna menggunakan Bootstrap  
-- Pengaturan / konfigurasi melalui file `.env`  
-- Sistem routing terstruktur melalui folder `routes`  
+- Penjadwalan berdasarkan dosen, ruang, dan semester  
+- Tampilan antarmuka yang responsif dan ringan  
+- Routing terstruktur melalui file `web.php`  
+- Integrasi database MySQL lokal via Laragon  
+- Validasi input dan pengelolaan data dinamis  
 
 ---
 
-## 📂 Struktur Folder (singkat)
+## ⚙️ Cara Instalasi & Menjalankan (Menggunakan Laragon)
 
-| Folder / File | Keterangan |
-|--------------------|-------------------------------|
-| `app/`              | Kode backend (Models, Controllers, dsb.) |
-| `config/`           | Konfigurasi aplikasi Laravel |
-| `database/`         | Migrations, seeder database |
-| `public/`            | File publik (CSS, JS, gambar, index.php) |
-| `resources/`         | Views (Blade), asset original |
-| `routes/`            | Definisi rute aplikasi |
-| `.env.example`       | Template konfigurasi environment |
-| `composer.json`      | Dependensi backend PHP |
-| `vite.config.js`     | Konfigurasi Vite untuk build frontend assets |
-
----
-
-## 🚀 Cara Instalasi & Menjalankan
-
-> Asumsinya kamu punya PHP, Composer, Node.js & NPM, serta MySQL sudah terinstall
-
-1. Clone repositorinya:
+1. **Clone repository ini**
    ```bash
    git clone https://github.com/Ramandanizarf/JadwalMatakuliah.git
-   cd JadwalMatakuliah
+
+2. Pindahkan folder project ke direktori Laragon
+   C:\laragon\www\
