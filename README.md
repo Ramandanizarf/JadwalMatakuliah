@@ -19,7 +19,7 @@ Dikembangkan menggunakan **Laragon** sebagai *local development environment*.
 
 ---
 
-## ⚙️ Langkah Instalasi (Menggunakan Laragon)
+## ⚙️ Langkah-Langkah Instalasi (Menggunakan Laragon)
 
 ### 1️⃣ Clone Repository
 ```bash
@@ -108,22 +108,49 @@ JadwalMatakuliah/
 ├── app/
 │   ├── Http/
 │   │   ├── Controllers/
-│   │   └── Middleware/
+│   │   │   ├── CourseController.php
+│   │   │   ├── LecturerController.php
+│   │   │   ├── RoomController.php
+│   │   │   ├── ScheduleController.php
+│   │   │   ├── TimeslotController.php
+│   │   │   ├── UserController.php
+│   │   │   └── LoginController.php
+│   │   └── Middleware/CheckRole.php
 │   └── Models/
+│       ├── Course.php
+│       ├── Lecturer.php
+│       ├── Program.php
+│       ├── Role.php
+│       ├── Room.php
+│       ├── Schedule.php
+│       ├── Timeslot.php
+│       └── User.php
+│
 ├── database/
 │   ├── migrations/
 │   ├── seeders/
 │   └── database.sqlite
+│
 ├── public/
 │   ├── favicon.ico
 │   ├── index.php
 │   └── robots.txt
+│
 ├── resources/
 │   ├── css/
 │   ├── js/
 │   └── views/
+│       ├── auth/
+│       ├── courses/
+│       ├── lecturers/
+│       ├── rooms/
+│       ├── schedules/
+│       ├── timeslots/
+│       └── users/
+│
 ├── routes/
 │   └── web.php
+│
 └── composer.json
 ```
 
@@ -144,7 +171,125 @@ JadwalMatakuliah/
 
 ## 📸 Tampilan Aplikasi
 
-> Lihat folder [`/docs/screenshots`](./docs/screenshots/) untuk semua tangkapan layar.
+<details>
+<summary>🪪 Halaman Login</summary>
+
+![Login](./docs/screenshots/login.png)
+</details>
+
+<details>
+<summary>🧍‍♂️ Halaman Registrasi</summary>
+
+![Registrasi](./docs/screenshots/registrasi.png)
+</details>
+
+<details>
+<summary>📘 Halaman Mata Kuliah</summary>
+
+![Mata Kuliah](./docs/screenshots/matakuliah.png)
+</details>
+
+<details>
+<summary>➕ Tambah Mata Kuliah</summary>
+
+![Tambah Mata Kuliah](./docs/screenshots/tambahmatakuliah.png)
+</details>
+
+<details>
+<summary>✏️ Edit Mata Kuliah</summary>
+
+![Edit Mata Kuliah](./docs/screenshots/editmatakuliah.png)
+</details>
+
+<details>
+<summary>👨‍🏫 Daftar Dosen</summary>
+
+![Daftar Dosen](./docs/screenshots/daftardosen.png)
+</details>
+
+<details>
+<summary>👨‍🏫 Tambah Dosen Baru</summary>
+
+![Tambah Dosen Baru](./docs/screenshots/daftardosenbaru.png)
+</details>
+
+<details>
+<summary>👨‍🏫 Edit Data Dosen</summary>
+
+![Edit Data Dosen](./docs/screenshots/editdatadosen.png)
+</details>
+
+<details>
+<summary>🏫 Daftar Ruangan</summary>
+
+![Daftar Ruangan](./docs/screenshots/daftarruangan.png)
+</details>
+
+<details>
+<summary>➕ Tambah Ruangan</summary>
+
+![Tambah Ruangan](./docs/screenshots/tambahruangan.png)
+</details>
+
+<details>
+<summary>✏️ Edit Ruangan</summary>
+
+![Edit Ruangan](./docs/screenshots/editruangan.png)
+</details>
+
+<details>
+<summary>⏰ Daftar Slotwaktu</summary>
+
+![Daftar Slotwaktu](./docs/screenshots/daftarslotwaktu.png)
+</details>
+
+<details>
+<summary>➕ Tambah Slotwaktu</summary>
+
+![Tambah Slotwaktu](./docs/screenshots/tambahslotwaktu.png)
+</details>
+
+<details>
+<summary>✏️ Edit Slotwaktu</summary>
+
+![Edit Slotwaktu](./docs/screenshots/editslotwaktu.png)
+</details>
+
+<details>
+<summary>📅 Daftar Jadwal</summary>
+
+![Daftar Jadwal](./docs/screenshots/daftarjadwal.png)
+</details>
+
+<details>
+<summary>➕ Tambah Jadwal</summary>
+
+![Tambah Jadwal](./docs/screenshots/tambahjadwal.png)
+</details>
+
+<details>
+<summary>✏️ Edit Jadwal</summary>
+
+![Edit Jadwal](./docs/screenshots/editjadwal.png)
+</details>
+
+<details>
+<summary>👥 Kelola User</summary>
+
+![Kelola User](./docs/screenshots/kelolauser.png)
+</details>
+
+<details>
+<summary>➕ Tambah User</summary>
+
+![Tambah User](./docs/screenshots/tambahuser.png)
+</details>
+
+<details>
+<summary>👤 Tampilan User</summary>
+
+![Tampilan User](./docs/screenshots/tampilanuser.png)
+</details>
 
 ---
 
