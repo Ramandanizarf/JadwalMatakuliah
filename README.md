@@ -104,14 +104,50 @@ Project ini dijalankan menggunakan **Laragon** sebagai *local development enviro
 
 ## 🖼️ Tampilan Aplikasi
 
-| Halaman | Screenshot |
-|----------|-------------|
-| **Login** | ![Login](./docs/screenshots/login.png) |
-| **Registrasi** | ![Registrasi](./docs/screenshots/registrasi.png) |
-| **Mata Kuliah** | ![Mata Kuliah](./docs/screenshots/matakuliah.png) |
-| **Tambah Mata Kuliah** | ![Tambah Mata Kuliah](./docs/screenshots/tambahmatakuliah.png) |
-| **Edit Mata Kuliah** | ![Edit Mata Kuliah](./docs/screenshots/editmatakuliah.png) |
-| **Daftar Dosen** | ![Daftar Dosen](./docs/screenshots/daftardosen.png) |
+## 📸 Tampilan Aplikasi
+
+<details>
+<summary>🪪 Halaman Login</summary>
+
+![Login](./docs/screenshots/login.png)
+
+</details>
+
+<details>
+<summary>🧍‍♂️ Halaman Registrasi</summary>
+
+![Registrasi](./docs/screenshots/registrasi.png)
+
+</details>
+
+<details>
+<summary>📘 Halaman Mata Kuliah</summary>
+
+![Mata Kuliah](./docs/screenshots/matakuliah.png)
+
+</details>
+
+<details>
+<summary>➕ Tambah Mata Kuliah</summary>
+
+![Tambah Mata Kuliah](./docs/screenshots/tambahmatakuliah.png)
+
+</details>
+
+<details>
+<summary>✏️ Edit Mata Kuliah</summary>
+
+![Edit Mata Kuliah](./docs/screenshots/editmatakuliah.png)
+
+</details>
+
+<details>
+<summary>👨‍🏫 Daftar Dosen</summary>
+
+![Daftar Dosen](./docs/screenshots/daftardosen.png)
+
+</details>
+
 
 ---
 
