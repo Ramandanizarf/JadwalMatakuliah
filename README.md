@@ -102,8 +102,6 @@ Project ini dijalankan menggunakan **Laragon** sebagai *local development enviro
 
 ---
 
-## 🖼️ Tampilan Aplikasi
-
 ## 📸 Tampilan Aplikasi
 
 <details>
