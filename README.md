@@ -210,7 +210,7 @@ JadwalMatakuliah/
 <details>
 <summary>👨‍🏫 Tambah Dosen Baru</summary>
 
-![Tambah Dosen Baru](./docs/screenshots/daftardosenbaru.png)
+![Tambah Dosen Baru](./docs/screenshots/tambahdosenbaru.png)
 </details>
 
 <details>
