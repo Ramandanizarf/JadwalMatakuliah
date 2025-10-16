@@ -213,7 +213,7 @@ JadwalMatakuliah/
 
 | Nama | Peran |
 |------|--------|
-| **Ramanda Nizar** | Pengembang Utama |
+| **Ramanda** | Pengembang Utama |
 
 ---
 
