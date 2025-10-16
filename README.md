@@ -1,4 +1,4 @@
-# 📚 JadwalMatakuliah
+<img width="1919" height="961" alt="Screenshot 2025-10-16 135148" src="https://github.com/user-attachments/assets/bad1f1b0-ce7d-40f7-99dc-a29eadcd8330" /># 📚 JadwalMatakuliah
 
 Aplikasi web berbasis **Laravel** untuk mengelola dan menampilkan **jadwal mata kuliah**.  
 Didesain agar dosen dan mahasiswa dapat melihat serta mengatur jadwal per semester dengan mudah.  
@@ -106,15 +106,18 @@ Project ini dijalankan menggunakan **Laragon** sebagai local development environ
 
 ## 🖼️ Tampilan Aplikasi (Screenshots)
 
-Berikut beberapa area yang bisa kamu tambahkan screenshot-nya nanti 👇  
-> Simpan semua gambar di folder `docs/screenshots/` agar struktur tetap rapi.
-
 | Halaman | Screenshot |
 |----------|-------------|
-| **Dashboard Utama** | ![Dashboard](./docs/screenshots/dashboard.png) |
-| **Daftar Jadwal Mata Kuliah** | ![Daftar Jadwal](./docs/screenshots/jadwal.png) |
-| **Form Tambah / Edit Jadwal** | ![Form Jadwal](./docs/screenshots/form-jadwal.png) |
-| **Detail Mata Kuliah** | ![Detail MK](./docs/screenshots/detail-mk.png) |
+| **Halaman Login** | ![Login](./docs/screenshots/login.png) |
+| **Halaman Registrasi** | ![Registrasi](./docs/screenshots/registrasi.png) |
+
+| **Halaman Mata Kuliah** | ![Mata Kuliah](./docs/screenshots/matakuliah.png) |
+| **Halaman Tambah Mata Kuliah** | ![Tambah Mata Kuliah](./docs/screenshots/tambahmatakuliah.png) |
+| **Halaman Edit Mata Kuliah** | ![Edit Mata Kuliah](./docs/screenshots/editmatakuliah.png) |
+
+| **Halaman Daftar Dosen** | ![Daftar Dosen](./docs/screenshots/daftardosen.png) |
+
+
 
 ---
 
@@ -123,20 +126,5 @@ Berikut beberapa area yang bisa kamu tambahkan screenshot-nya nanti 👇
 | Nama | Peran |
 |------|--------|
 | Ramanda Nizar | Pengembang Utama |
-
----
-
-## 📄 Lisensi
-
-Project ini dilisensikan di bawah **MIT License** — silakan lihat file `LICENSE` untuk detailnya.
-
----
-
-## 🧭 Rencana Pengembangan
-
-- 🔐 Fitur login & manajemen user (dosen / mahasiswa)  
-- 📅 Export jadwal ke PDF / iCal  
-- 📱 Optimalisasi tampilan untuk perangkat mobile  
-- 🧩 Sistem deteksi konflik jadwal otomatis  
 
 ---
